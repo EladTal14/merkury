@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/merkury/static/css/main.d2b52154.chunk.css",
+    "main.js": "/merkury/static/js/main.4a174094.chunk.js",
+    "main.js.map": "/merkury/static/js/main.4a174094.chunk.js.map",
+    "runtime-main.js": "/merkury/static/js/runtime-main.55a526f1.js",
+    "runtime-main.js.map": "/merkury/static/js/runtime-main.55a526f1.js.map",
+    "static/js/2.29afa2d6.chunk.js": "/merkury/static/js/2.29afa2d6.chunk.js",
+    "static/js/2.29afa2d6.chunk.js.map": "/merkury/static/js/2.29afa2d6.chunk.js.map",
+    "static/js/3.72f961ad.chunk.js": "/merkury/static/js/3.72f961ad.chunk.js",
+    "static/js/3.72f961ad.chunk.js.map": "/merkury/static/js/3.72f961ad.chunk.js.map",
+    "index.html": "/merkury/index.html",
+    "static/css/main.d2b52154.chunk.css.map": "/merkury/static/css/main.d2b52154.chunk.css.map",
+    "static/js/2.29afa2d6.chunk.js.LICENSE.txt": "/merkury/static/js/2.29afa2d6.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/merkury/static/media/Roboto-Regular.a8d6ac03.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.55a526f1.js",
+    "static/js/2.29afa2d6.chunk.js",
+    "static/css/main.d2b52154.chunk.css",
+    "static/js/main.4a174094.chunk.js"
+  ]
+}
