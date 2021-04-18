@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/merkury/static/css/main.5230edf6.chunk.css",
-    "main.js": "/merkury/static/js/main.1ec5a95d.chunk.js",
-    "main.js.map": "/merkury/static/js/main.1ec5a95d.chunk.js.map",
+    "main.js": "/merkury/static/js/main.0176c3a1.chunk.js",
+    "main.js.map": "/merkury/static/js/main.0176c3a1.chunk.js.map",
     "runtime-main.js": "/merkury/static/js/runtime-main.7785289e.js",
     "runtime-main.js.map": "/merkury/static/js/runtime-main.7785289e.js.map",
-    "static/js/2.b03c9649.chunk.js": "/merkury/static/js/2.b03c9649.chunk.js",
-    "static/js/2.b03c9649.chunk.js.map": "/merkury/static/js/2.b03c9649.chunk.js.map",
+    "static/js/2.c06ee129.chunk.js": "/merkury/static/js/2.c06ee129.chunk.js",
+    "static/js/2.c06ee129.chunk.js.map": "/merkury/static/js/2.c06ee129.chunk.js.map",
     "static/js/3.b148852a.chunk.js": "/merkury/static/js/3.b148852a.chunk.js",
     "static/js/3.b148852a.chunk.js.map": "/merkury/static/js/3.b148852a.chunk.js.map",
     "index.html": "/merkury/index.html",
     "static/css/main.5230edf6.chunk.css.map": "/merkury/static/css/main.5230edf6.chunk.css.map",
-    "static/js/2.b03c9649.chunk.js.LICENSE.txt": "/merkury/static/js/2.b03c9649.chunk.js.LICENSE.txt",
+    "static/js/2.c06ee129.chunk.js.LICENSE.txt": "/merkury/static/js/2.c06ee129.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/merkury/static/media/Roboto-Regular.a8d6ac03.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.7785289e.js",
-    "static/js/2.b03c9649.chunk.js",
+    "static/js/2.c06ee129.chunk.js",
     "static/css/main.5230edf6.chunk.css",
-    "static/js/main.1ec5a95d.chunk.js"
+    "static/js/main.0176c3a1.chunk.js"
   ]
 }
