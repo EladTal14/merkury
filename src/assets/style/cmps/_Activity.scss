@@ -1,0 +1,61 @@
+.activity {
+  padding: 40px 34px 30px 34px;
+  &:last-child {
+    padding-bottom: 0;
+  }
+  max-width: 474px;
+  justify-content: space-between;
+  height: 132px;
+  &:not(:last-child) {
+    .face {
+      position: relative;
+      z-index: 2;
+      .line {
+        z-index: -10;
+        width: 1px;
+        position: absolute;
+        height: rem(140px);
+        background-color: #8492af71;
+        top: 0;
+        right: 50%;
+      }
+    }
+  }
+  .content {
+    flex: 1;
+    margin-left: 18px;
+    line-height: 24px;
+    .creator {
+      color: #0e1a35;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .sentence {
+      font-size: rem(14px);
+      color: #8492af;
+      .on {
+        font-weight: 700;
+
+        color: #0e1a35;
+      }
+    }
+    .container {
+      align-items: center;
+      .sent-at {
+        margin-top: 5px;
+        font-size: 14px;
+        color: #8492af;
+      }
+      img {
+        max-height: 17px;
+        margin-right: 7px;
+        justify-self: auto;
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
+  .activity {
+    padding: 10px;
+  }
+}

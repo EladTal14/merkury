@@ -1,0 +1,11 @@
+.side-menu {
+  background-color: #0e1a35;
+  min-height: 100vh;
+  flex: 3;
+  .logo {
+    margin-top: rem(29px);
+    margin-left: rem(41px);
+    margin-bottom: rem(50px);
+    max-width: rem(182px);
+  }
+}

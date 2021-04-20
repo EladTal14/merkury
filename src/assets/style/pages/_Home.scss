@@ -1,0 +1,22 @@
+.home {
+  padding-left: rem(43px);
+  padding-right: rem(43px);
+  h1 {
+    color: #0e1a35;
+    font-size: rem(48px);
+    font-weight: 500;
+    line-height: 14.4px;
+  }
+  .events {
+    flex-wrap: wrap;
+    & > * {
+      margin-top: 43px;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .home {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}

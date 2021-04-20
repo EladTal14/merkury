@@ -1,0 +1,37 @@
+@import "./setup/functions";
+@import "./setup/vars";
+@import "./setup/typography";
+
+@import "./cmps/TopMenu";
+@import "./cmps/SideMenu";
+@import "./cmps/Pages";
+@import "./cmps/Page";
+@import "./cmps/Sales";
+@import "./cmps/Report";
+@import "./cmps/Tasks";
+@import "./cmps/Task";
+@import "./cmps/Message";
+@import "./cmps/Activity";
+
+@import "./pages/Home";
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: roboto-regular, Arial, Helvetica, sans-serif;
+}
+.main {
+  flex: 8;
+  margin-bottom: 43px;
+}
+.App {
+  background-color: #f6f7fa;
+  min-height: 100vh;
+  display: flex;
+}
+.VictoryContainer {
+  height: 80% !important;
+  width: 90% !important;
+}

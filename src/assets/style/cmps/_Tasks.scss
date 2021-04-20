@@ -1,0 +1,35 @@
+.tasks {
+  border: 1px solid rgba(132, 146, 175, 0.3);
+  background-color: #ffffff;
+  max-width: fit-content;
+  .header {
+    padding: 20px 34px 20px 34px;
+    align-items: center;
+    .task-bubbles {
+      .bubble {
+        position: relative;
+        span {
+          color: #ffffff;
+          font-size: 24px;
+          position: absolute;
+          top: 16%;
+          right: 37%;
+        }
+      }
+      .bubble:first-child {
+        margin-right: 12px;
+      }
+
+      img {
+        max-width: 45px;
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
+  .tasks {
+    .header {
+      padding: 10px;
+    }
+  }
+}

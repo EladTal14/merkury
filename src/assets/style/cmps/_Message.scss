@@ -1,0 +1,55 @@
+.message {
+  &.unread {
+    background-color: #dadee771;
+  }
+  cursor: pointer;
+  padding: 40px 50px 30px 50px;
+  justify-content: space-between;
+  &:nth-child(even) {
+    border-style: solid;
+    border-color: rgba(132, 146, 175, 0.3) !important;
+    border-width: 1px;
+    border-left: none;
+    border-right: none;
+    &:first-child {
+      border-top: 1px solid rgba(132, 146, 175, 0.3);
+    }
+  }
+  .content {
+    flex: 1;
+    margin-left: 18px;
+    line-height: 20px;
+    .creator {
+      font-family: roboto-medium;
+      color: #0e1a35;
+      font-weight: 500;
+      letter-spacing: 0.2px;
+      margin-right: 5px;
+    }
+    .sent-at {
+      color: #8492af;
+    }
+    .sentence {
+      font-weight: 400;
+      letter-spacing: 0.2px;
+      font-size: rem(15px);
+      margin: 5px 0 0 0;
+    }
+  }
+  .options {
+    max-height: 33px;
+    margin-left: 40px;
+    margin-top: 6px;
+  }
+  .actions {
+    margin-top: 10px;
+    img:first-child {
+      margin-right: 12px;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .message {
+    padding: 10px;
+  }
+}
